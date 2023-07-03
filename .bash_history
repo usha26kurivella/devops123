@@ -79,3 +79,75 @@ ls ?????
 ls ???
 echo {sunday monday,tuesday,wednesday,thursday}.log
 echo file{1..3}.log
+git branch
+git push origin usha2
+git branch featureB
+git checkout featureB
+git push origin featureB
+vim featureB
+git checkout featureB
+git pull origin featureB
+cd featureB
+git checkout featureB
+vim hello.sh
+ls
+git status
+git branch
+ls
+pwd
+cd featureB
+git init
+ll
+cd featureB
+ls
+git checkout featureB
+ls
+git add .
+git push origin featureB
+ls
+vi text.hyma2
+ls
+git add .
+git commit -m "newhfile"
+git push origin featureB
+ls
+git branch featureC
+ls
+git checkout featureC
+ls
+cd featurC
+vi ush2.txt
+ls
+git add ush2.txt
+git commit -m "i am creating file"
+git push origin featureC
+yum install jenkins -y
+yum install jenkins
+cat /etc/redhat-release
+rpm --help
+apt install jenkins -y
+sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -
+sudo apt update
+sudo apt install jenkins
+sudo apt install jenkins
+wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -
+sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+sudo apt update
+sudo apt install jenkins
+sudo systemctl status jenkins
+sudo apt install openjdk-11-jre
+curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee   /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]   https://pkg.jenkins.io/debian-stable binary/ | sudo tee   /etc/apt/sources.list.d/jenkins.list > /dev/null
+sudo apt-get update -y
+sudo apt-get install jenkins -y
+sudo systemctl enable jenkins
+sudo systemctl start jenkins
+sudo systemctl status jenkins
+ifconfig
+sudo systemctl status jenkins
+cat /var/lib/jenkins/secrets/initialAdminPassword
+systemctl jenkins status
+systemctl status jenkins
+history
+ 
